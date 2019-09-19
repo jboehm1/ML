@@ -19,10 +19,6 @@ print ("Threshold: ", fast.getThreshold())
 #print ("neighborhood: ", fast.getInt('type'))
 print ("Total Keypoints with nonmaxSuppression: ", len(kp))
 
-
-
 cv2.imwrite('fast_true_2.png',img)
-
-
 
 cv2.waitKey()
