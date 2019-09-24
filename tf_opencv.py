@@ -16,6 +16,7 @@ import cv2
 
 print("Imports successful") 
 
+# Load model from folder
 try:
 	# load model
 	model = load_model('model1.h5')
